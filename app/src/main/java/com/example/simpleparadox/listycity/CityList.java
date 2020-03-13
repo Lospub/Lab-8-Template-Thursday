@@ -79,6 +79,6 @@ public class CityList {
     }
     
     public String ReturnFirstProvinceName(){
-        return "";
+        return "empty";
     }
 }
