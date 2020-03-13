@@ -93,4 +93,10 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+    
+    @Test
+    void testReturnFirstProvinceName(){
+        CityList cityList = mockCityList();
+        
+        assertEquals("Edmonton", cityList.ReturnFirstProvinceName());
 }
