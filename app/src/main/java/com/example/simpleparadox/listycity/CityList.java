@@ -77,4 +77,10 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+    
+    public String ReturnFirstProvinceName(){
+        City city = cities.get(0);
+        String name = city.getProvinceName();
+        return name;
+    }
 }
