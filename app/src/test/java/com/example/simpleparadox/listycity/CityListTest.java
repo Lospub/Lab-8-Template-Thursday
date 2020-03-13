@@ -98,5 +98,5 @@ class CityListTest {
     void testReturnFirstProvinceName(){
         CityList cityList = mockCityList();
         
-        assertEquals("Edmonton", cityList.ReturnFirstProvinceName());
+        assertEquals("Alberta", cityList.ReturnFirstProvinceName());
 }
