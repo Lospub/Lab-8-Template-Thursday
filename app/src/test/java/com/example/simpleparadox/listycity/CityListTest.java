@@ -95,8 +95,9 @@ class CityListTest {
     }
     
     @Test
-    void testReturnFirstProvinceName(){
+    void testReturnFirstProvinceName() {
         CityList cityList = mockCityList();
-        
+
         assertEquals("Alberta", cityList.ReturnFirstProvinceName());
+    }
 }
