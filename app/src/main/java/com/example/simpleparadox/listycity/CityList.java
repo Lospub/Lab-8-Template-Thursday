@@ -80,6 +80,7 @@ public class CityList {
     
     public String ReturnFirstProvinceName(){
         City city = cities.get(0);
-        return city.getProvinceName();
+        String name = city.getProvinceName();
+        return name;
     }
 }
